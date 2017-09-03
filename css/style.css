@@ -1,0 +1,34 @@
+body {
+    text-align: center;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+body>p:first-child,body>p:nth-child(2),body>p:nth-child(3) {
+	display: inline-block;
+	width: 20%;
+	font: bold 1.5em helvetica,arial,sans-serif;
+	color: purple;
+	line-height: 1.5;
+}
+body>p:nth-child(4) {
+	color: blue;
+	font: 0.8em helvetica,arial,sans-serif;
+}
+section{
+	margin: 1em;
+	width: 210px;
+	float: left;
+}
+section p{
+	display: inline-block;
+	color: blue;
+}
+li{
+	display: inline-block;
+	list-style: none;
+}
+canvas{
+	margin-left: -210px;
+}
